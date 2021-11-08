@@ -1,2 +1,1 @@
-# html-css
- html/css basico
+Esse projeto  é apenas o basico , onde estou apenas praticando 
