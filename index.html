@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+   <head>
+       <meta charset="UTF-8"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title> Açaí  </title>
+       <link rel="stylesheet" href="css/estilo.css"/>
+       <link rel="stylesheet" href="css/index.css"/>
+
+   <script>
+      function trocafacebook(foto){
+          document.getElementById("facebook").src= foto;
+      }
+
+      function trocainstagram(foto2){
+          document.getElementById("instagram").src=foto2;
+      }
+
+   </script>
+
+   
+   </head>
+
+<body>
+
+<header>  
+          
+            <h1>Açaí</h1>
+            <h2>Fui atras da felicidade e voltei com uma tigela de acai.</h2>
+
+       <div class="iconeacai">
+            
+            <picture>
+               <img src="imagem/copo2.png"  class="copo"  >
+               <img src="imagem/tigela.png.png" class="tigela" >
+            </picture>
+
+        </div>
+
+        
+    
+</header>  
+
+        <nav class="menu">
+             <ul>
+                <li> <a href="index.html"> Inicio </a> </li>
+                <li> <a href="compra.html"> Compra </a> </li>
+                <li> <a href="contato.html"> Contato </a> </li>
+            </ul>
+        </nav>
+        
+
+<div class="compartimento1">
+
+            <h1>Varios Tipos e Tamanhos</h1>
+             <p class="p1">venham desfrutar de deliciosos açaí, onde a qualidade é a nossa prioridade.</p>
+         
+        <nav class="galeria">   
+             <ul>
+                 <li class="foto1"><a></a></li>
+                 <li class="foto2"><a></a></li>
+                 <li class="foto3"><a></a></li>
+                 <li class="foto4"><a></a></li>
+                 <li class="foto5"><a></a></li>
+               
+             </ul>
+        </nav>  
+                <ul class="botao">
+                  <li ><a href="compra.html">Compra</a></h2></li>
+                </ul>
+</div>
+
+
+
+
+<main>
+        <div class="compartimento2">
+               
+            
+            <p> Esse site tem como objetivo o treino acadêmico, onde eu Gabriel Barboza coloco em pratica habilidades adiquirida em cursos e estudos pessoal. HTML , CSS , JavaScript </p>
+           
+            
+                 <img src="imagem/corpo.jpg" class="img2">
+                 <a href="https://pt-br.facebook.com/" target="_blank"><img src="imagem/facebookblack.png" id="facebook" onmousemove="trocafacebook('imagem/facebookblue.png')" onmouseout="trocafacebook('imagem/facebookblack.png')"/></a>
+         
+                 <img src="imagem/instagram1.png" id="instagram" onmousemove="trocainstagram('imagem/instagram2.png')" onmouseout="trocainstagram('imagem/instagram1.png')"/>
+
+        </div>
+</main>
+
+
+
+<footer>
+    <p> © Copyright 2021: Gabriel Barboza  <a href="https://www.instagram.com/gabrielll3600/">Instagram</a></p>
+</footer>       
+
+</body>
+
+</html>

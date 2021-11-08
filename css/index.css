@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.compartimento1{
+    text-align:center;
+    background-color: thistle;
+    height: 590px;
+   
+}
+
+
+h1{
+    position: relative;
+    top: 40px;
+    font-size: 40pt;
+    
+}
+
+
+.p1{
+    position: relative;
+    top: 40px;
+    font-size: 20pt;
+}
+
+.galeria{
+    display: block;
+}
+
+.galeria > ul {
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    border: rgba(0,0,0,.2) 1px solid;
+    box-shadow: 1px 1px 1px black;
+    top: 45px;
+   
+}
+
+.galeria > ul > li {
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    float: left;
+    -webkit-transition: all .4s ease-in;
+    
+}
+
+.galeria > ul > li:hover{
+    -webkit-transform: scale(2);
+}
+
+.botao > li > a{
+    position: relative;
+    top: 10px;
+    text-align:center;
+    left: -40px;
+    background-color: #330128;
+    color: rgb(204, 204, 204);
+    border: solid 2px rgba(12, 9, 9, 0.4);
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    padding: 10px;
+}
+.botao > li > a:hover{
+    color: white;
+    background-color: #4d013c;
+    text-decoration: underline;
+}
+
+
+.foto1 {
+    background-image: url('../imagem/foto1.jpg') ;
+    background-position: 50% 50%;
+    background-size: 400px 400px ;
+    
+}
+.foto1:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+.foto2 {
+    background-image: url('../imagem/foto2.jpg') ;
+    background-position: 50% 50%;
+    background-size: 400px 400px ;
+    
+}
+.foto2:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+.foto3 {
+    background-image: url('../imagem/foto3.png') ;
+    background-position: 50% 50%;
+    background-size: 400px 400px ;
+    
+}
+.foto3:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+.foto4 {
+    background-image: url('../imagem/foto4.png') ;
+    background-position: 50% 50%;
+    background-size: 400px 400px ;
+    
+}
+.foto4:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+.foto5 {
+    background-image: url('../imagem/foto5.png') ;
+    background-position: 50% 50%;
+    background-size: 400px 400px ;
+    
+}
+.foto5:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+
+/*------------------------- Compartimento 2 ------------------------------ */
+
+.compartimento2{
+   background-image: url('../imagem/cabeçalho.jpg')  ;
+   max-width: 1360px;
+   height: 420px;
+
+}
+.img2{
+    width:250px;
+    height: 250px;
+    display: block;
+    position: relative;
+    box-shadow: 1px 1px 4px white;
+    border: 1px solid black;
+    margin: auto;
+    top: 40px;
+}
+
+
+.compartimento2 p{
+    color: rgb(223, 222, 222);
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size:17pt;
+    text-shadow: 2px 2px 4px black;
+}
+
+.compartimento2 p:hover{
+    color: white;
+    
+}
+
+.compartimento2 #facebook{
+    position: relative;
+    left: 350px;
+    top: -120px;
+}
+
+.compartimento2 #instagram{
+    position: relative;
+    left: 130px;
+    top: -120px;
+}
+
+footer{
+    background-color: black;
+    
+     height: 40px;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+footer p a{
+    color: rgb(126, 10, 120);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer p a:hover{
+    color: rgb(168, 235, 12);
+    text-decoration: underline;
+}

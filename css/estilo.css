@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@media (max-width: 1184px) {
+    .iconeacai{display: none;}}
+    @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=La+Belle+Aurore&family=Zen+Antique&family=Zen+Kurenaido&family=Zen+Old+Mincho:wght@900&display=swap');
+@font-face{
+    font-family: Titulo;
+    src: url('fonts/PlomPraeng.ttf') format('truetype');
+}
+
+*{
+   
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*--------------------- cabeçalho --------------- */
+header{
+    background-image: url('../imagem/cabeçalho.jpg');
+    color: white;
+    max-width:1360px;
+    min-width: 280px;
+    height: 160px;
+}
+
+header > h1{
+   color:#bd42a2;
+   font-family: Titulo, Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 64px;
+   text-align: center;
+   text-shadow: 2px 2px 4px black;
+   display: block;
+   position: relative;
+   left: -150px;
+   top: 20px;
+   margin-left: 130px;
+}
+
+header > h2{
+    color: #A30A82;
+    font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    display: block;
+    position: relative;
+    margin-left: 150px;
+    left: -120px;
+    top: 20px;
+}
+
+.tigela{
+    display: block;
+    position: absolute;
+    width: 250px;
+    top: 5px;
+    left: 50px;
+}
+
+.copo{
+    display: block;
+    position: relative;
+    width: 250px;
+    top: -110px;
+    left: 930px;
+}
+
+
+
+/* ----------------- cabeçalho --------------------------- */
+
+
+/* ----------------------- menu ------------------------- */
+.menu{
+    display: block;
+    background-color: black;
+    height: 37px;
+    left: -40px;
+}
+
+.menu > ul{
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.menu > ul > li{
+    display: inline-block;
+    position: relative;
+    left: -70px;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 6px;
+    background-color: #420234c2;
+    box-shadow: 2px 2px 4px black;
+    border:  #2e0325 2px;
+ 
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: rgb(214, 207, 207);
+}
+
+.menu > ul > li > a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #4d013c;
+}
+
+/*------------------------ Menu ----------------------- */
+
+
+
